@@ -1,6 +1,6 @@
 workflows:
   ios-native-workflow:
-    name:101 chat
+    name: 101 chat
     max_build_duration: 120
     instance_type: mac_mini_m1
     integrations:
