@@ -80,7 +80,7 @@
 		"lodash": "4.17.21",
 		"moment": "2.29.4",
 		"pretty-bytes": "5.6.0",
-		"prop-types": "15.7.2",
+		"prop-types": "15.8.1",
 		"react": "17.0.2",
 		"react-hook-form": "^7.34.2",
 		"react-native": "RocketChat/react-native#281140d2e39d66a8e486db397ce0bf5bd0e334fc",
