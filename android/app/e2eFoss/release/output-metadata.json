@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "chat.rocket.reactnative",
+  "variantName": "e2eFossRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 999999999,
+      "versionName": "4.36.0",
+      "outputFile": "app-e2e-foss-release.apk"
+    }
+  ],
+  "elementType": "File"
+}
