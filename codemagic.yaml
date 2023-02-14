@@ -1,45 +1,75 @@
-
 workflows:
-  my-workflow:
-    instance_type: mac_pro
-workflows:
-  my-workflow:
-    scripts:
-      - name: Run iOS tests
-        script: |
-          set -e # exit on first failed command
+    sample-workflow:
+        name: Codemagic Sample Workflow
+        max_build_duration: 120
+        instance_type: mac_mini_m1
+        
+          react-native-ios:
+    # ....
+    environment:
+      groups:
+        # ...
+      vars:
+        BUNDLE_ID: "io.codemagic.sample.reactnative"
+        
+        {
+  "expo": {
+    "name": "codemagicSample",
+    "slug": "codemagicSample",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "io.codemagic.sample.reactnative"
+    },
+    "android": {
+      "package": "io.codemagic.sample.reactnative"
+    }
+  }
+}
 
-          xcode-project run-tests \
-              --workspace ${XCODE_WORKSPACE?} \
-              --scheme ${XCODE_SCHEME?} \
-              --device "iPhone 12"
-        test_report: build/ios/test/*.xml
-workflows:
-  my-workflow:
-    scripts:
-      - name: Add provisioning profiles
-        script: |
-          set -e # exit on first failed command
-
-          PROFILES_HOME="$HOME/Library/MobileDevice/Provisioning Profiles"
-          mkdir -p "$PROFILES_HOME"
-          echo ${PROVISIONING_PROFILE?} | base64 --decode > "$PROFILES_HOME/$(uuidgen).mobileprovision"
-      - name: Add signing certificate
-        script: |
-          set -e # exit on first failed command
-
-          echo ${CERTIFICATE?} | base64 --decode > /tmp/certificate.p12
-          keychain initialize
-          keychain add-certificates \
-              --certificate /tmp/certificate.p12 \
-              --certificate-password ${CERTIFICATE_PASSWORD?}
-      - name: Increment build number
-        script: agvtool new-version -all $BUILD_NUMBER
-      - name: Set up code signing settings on Xcode project
-        script: xcode-project use-profiles
-      - name: Build ipa for distribution
-        script: xcode-project build-ipa \
-                    --workspace "${XCODE_WORKSPACE?}" \
-                    --scheme "${XCODE_SCHEME?}"
-    artifacts:
-      - build/ios/ipa/*.ipa
+react-native-ios:
+  environment:
+    groups:
+      # ...
+    vars:
+      BUNDLE_ID: "io.codemagic.sample.reactnative"
+      XCODE_WORKSPACE: "CodemagicSample.xcworkspace" # <-- Name of your Xcode workspace
+      XCODE_SCHEME: "CodemagicSample" # <-- Name of your Xcode scheme
+scripts:
+  # ...
+  - name: Build ipa for distribution
+    script: | 
+      xcode-project build-ipa \
+        --workspace "$CM_BUILD_DIR/ios/$XCODE_WORKSPACE" \
+        --scheme "$XCODE_SCHEME"
+artifacts:
+  - build/ios/ipa/*.ipa
+  - /tmp/xcodebuild_logs/*.log
+  - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+  - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+  
+  scripts:
+  - name: Install Expo CLI and eject
+    script: | 
+      yarn install
+      yarn global add expo-cli
+      expo eject
+  - name: Set Info.plist values
+    script: | 
+      PLIST=$CM_BUILD_DIR/$XCODE_SCHEME/Info.plist
+      PLIST_BUDDY=/usr/libexec/PlistBuddy
+      $PLIST_BUDDY -c "Add :ITSAppUsesNonExemptEncryption bool false" $PLIST
+  - name: Install CocoaPods dependencies
+    script: |
+        cd ios && pod install
+        
+        react-native-android:
+  # ... 
+  publishing:
+    # ...
+    google_play:
+      credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
+      track: internal
+      submit_as_draft: true
