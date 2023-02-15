@@ -3,7 +3,7 @@ workflows:
     name: rocket-chat Pipline
     scripts:
         - name: CICD Started
-         script: echo "Welcome to CICD set up"
+          script: echo "Welcome to CICD set up"
          
     publishing:
       email:
