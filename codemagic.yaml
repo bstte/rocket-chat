@@ -5,10 +5,7 @@ workflows:
     instance_type: mac_mini_m1
     integrations:
       app_store_connect: codemagic
-    environment:
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: io.codemagic.sample.reactnative
+    
       vars:
         BUNDLE_ID: "io.codemagic.sample.reactnative"
         XCODE_WORKSPACE: "CodemagicSample.xcworkspace" # <-- Put the name of your Xcode workspace here
