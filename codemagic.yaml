@@ -1,8 +1,7 @@
 workflows:
     react-native:
         name: React Native App
-       
-            node: latest
+    
         scripts:
             - npm install --force
             - echo "sdk.dir=$HOME/programs/android-sdk-macosx" > "$FCI_BUILD_DIR/android/local.properties"
