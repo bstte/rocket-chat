@@ -1,5 +1,5 @@
 workflows:
-react-native-ios:
+  react-native-ios:
     name: React Native iOS
     max_build_duration: 120
     instance_type: mac_mini_m1
@@ -48,8 +48,8 @@ react-native-ios:
     publishing:
       email:
         recipients:
-          - bstteam114@gamil.com
-          - bstteam114@gmail.com
+          - user_1@example.com
+          - user_2@example.com
         notify:
           success: true
           failure: false
