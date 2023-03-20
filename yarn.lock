@@ -1693,163 +1693,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@bugsnag/core@npm:^7.19.0":
-  version: 7.19.0
-  resolution: "@bugsnag/core@npm:7.19.0"
-  dependencies:
-    "@bugsnag/cuid": ^3.0.0
-    "@bugsnag/safe-json-stringify": ^6.0.0
-    error-stack-parser: ^2.0.3
-    iserror: 0.0.2
-    stack-generator: ^2.0.3
-  checksum: 324e1aa7bd62bd478c4e8459b2f54c71b4fb20d26075363a07be039f0cc65702b5996cee2e7955d0763b6535358376d45ef385cb9e24717441e1925de6aa5753
-  languageName: node
-  linkType: hard
-
-"@bugsnag/cuid@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@bugsnag/cuid@npm:3.0.0"
-  checksum: bf9ea46c63f921ca7ba6da2f577871db50145f0270094e55ae3e19237de2a8a2b92fd148e1a53446c3adb258158bb4f874ca0d3ca392c3f86f8a38c3a4285677
-  languageName: node
-  linkType: hard
-
-"@bugsnag/delivery-react-native@npm:^7.19.0":
-  version: 7.19.0
-  resolution: "@bugsnag/delivery-react-native@npm:7.19.0"
-  peerDependencies:
-    "@bugsnag/core": ^7.0.0
-  checksum: 4e657bd4d5078a4a7ea29f72d94a3306b834803a208d3c8dd7447d561c5ca490b30b9aa48d57fe4474b5fca9abb1589b7a6135627cea9b17ddb6091925df8ecc
-  languageName: node
-  linkType: hard
-
-"@bugsnag/plugin-console-breadcrumbs@npm:^7.19.0":
-  version: 7.19.0
-  resolution: "@bugsnag/plugin-console-breadcrumbs@npm:7.19.0"
-  peerDependencies:
-    "@bugsnag/core": ^7.0.0
-  checksum: b8d20f3330fe98511b36d4b13f853ad58e9b59a897a946d5162a8066f04d5e793947e92206694e2ec59044f64ed89245b868bd9b0348c075e37861deefbefad7
-  languageName: node
-  linkType: hard
-
-"@bugsnag/plugin-network-breadcrumbs@npm:^7.19.0":
-  version: 7.19.0
-  resolution: "@bugsnag/plugin-network-breadcrumbs@npm:7.19.0"
-  peerDependencies:
-    "@bugsnag/core": ^7.0.0
-  checksum: fdef76e787472df21177a5e472783488c7691b702837718c93b291887326f0518f1bd5c984bf2f1b18bc46a9e8dc65f160a1b81d7bf6591e1818f595c0ade35c
-  languageName: node
-  linkType: hard
-
-"@bugsnag/plugin-react-native-client-sync@npm:^7.19.0":
-  version: 7.19.0
-  resolution: "@bugsnag/plugin-react-native-client-sync@npm:7.19.0"
-  peerDependencies:
-    "@bugsnag/core": ^7.0.0
-  checksum: 47266e3aa4e42698cfd9b85083e37dc290e23175e28f85fca7467d3ac26932884e903ebda339ee86680ebd6ba706cd19d19666f01b7ef9466266c61095c848fd
-  languageName: node
-  linkType: hard
-
-"@bugsnag/plugin-react-native-event-sync@npm:^7.19.0":
-  version: 7.19.0
-  resolution: "@bugsnag/plugin-react-native-event-sync@npm:7.19.0"
-  peerDependencies:
-    "@bugsnag/core": ^7.0.0
-  checksum: a05f9ddf05e363852af91903f73b513708057b9f70682b00791b9a61070192e1a0a936a9e9b6d62bbae80441f964729d2d710c8e6788614a8a18972aa6d806bc
-  languageName: node
-  linkType: hard
-
-"@bugsnag/plugin-react-native-global-error-handler@npm:^7.19.0":
-  version: 7.19.0
-  resolution: "@bugsnag/plugin-react-native-global-error-handler@npm:7.19.0"
-  peerDependencies:
-    "@bugsnag/core": ^7.0.0
-  checksum: 43ec13c1dfea81e9b847aadbb84e16f9591da400a028e8d10aa937cbd97af0c69603777f875698ec14518388d82aee853be40e1bdddfeb21f2d77d240e603806
-  languageName: node
-  linkType: hard
-
-"@bugsnag/plugin-react-native-hermes@npm:^7.19.0":
-  version: 7.19.0
-  resolution: "@bugsnag/plugin-react-native-hermes@npm:7.19.0"
-  peerDependencies:
-    "@bugsnag/core": ^7.0.0
-  checksum: 546236b58eeb39efbf72e11f7e4cbc0ee3366364b7ed21f9712bde671a4eef45526bf3f57298fabdabcc3207d0d12fc12a0a6901500923ff1018417f2fac5cbe
-  languageName: node
-  linkType: hard
-
-"@bugsnag/plugin-react-native-session@npm:^7.19.0":
-  version: 7.19.0
-  resolution: "@bugsnag/plugin-react-native-session@npm:7.19.0"
-  peerDependencies:
-    "@bugsnag/core": ^7.0.0
-  checksum: 1b72a2adb29e05efb6cc2e495586fe911ba2756df0dc72f00a217c388f2c614ffb89af50f32f913fe5586f18181e8d750dc34077f4523856782113fcac0abec4
-  languageName: node
-  linkType: hard
-
-"@bugsnag/plugin-react-native-unhandled-rejection@npm:^7.19.0":
-  version: 7.19.0
-  resolution: "@bugsnag/plugin-react-native-unhandled-rejection@npm:7.19.0"
-  peerDependencies:
-    "@bugsnag/core": ^7.0.0
-  checksum: a305d27d68fc3446bc6a7ca586cc67766d710f24ee47deeb3cf3e3d26c3bbe8d23e39b49a1e6f636da8306005153061fe2c0b50441af2381546fe03c289130b5
-  languageName: node
-  linkType: hard
-
-"@bugsnag/plugin-react@npm:^7.19.0":
-  version: 7.19.0
-  resolution: "@bugsnag/plugin-react@npm:7.19.0"
-  peerDependencies:
-    "@bugsnag/core": ^7.0.0
-  peerDependenciesMeta:
-    "@bugsnag/core":
-      optional: true
-  checksum: b245c24df126da9bb413972ade7f1a947ba161ddfb837a980d2be7329ab43feee437d0fb7390a9eaa0cd251f5a41f38c53878bb5601d891ecfe511f5e3671251
-  languageName: node
-  linkType: hard
-
-"@bugsnag/react-native@npm:^7.19.0":
-  version: 7.19.0
-  resolution: "@bugsnag/react-native@npm:7.19.0"
-  dependencies:
-    "@bugsnag/core": ^7.19.0
-    "@bugsnag/delivery-react-native": ^7.19.0
-    "@bugsnag/plugin-console-breadcrumbs": ^7.19.0
-    "@bugsnag/plugin-network-breadcrumbs": ^7.19.0
-    "@bugsnag/plugin-react": ^7.19.0
-    "@bugsnag/plugin-react-native-client-sync": ^7.19.0
-    "@bugsnag/plugin-react-native-event-sync": ^7.19.0
-    "@bugsnag/plugin-react-native-global-error-handler": ^7.19.0
-    "@bugsnag/plugin-react-native-hermes": ^7.19.0
-    "@bugsnag/plugin-react-native-session": ^7.19.0
-    "@bugsnag/plugin-react-native-unhandled-rejection": ^7.19.0
-    iserror: ^0.0.2
-  checksum: b2d640c867f37840f9331d5b3efeffd4b8a7aad50365333133a3fc8ca5964f5c2023f4039ea4ba4abfe4590ee80f028218c3e4702e1516aab1b7d7c302604e29
-  languageName: node
-  linkType: hard
-
-"@bugsnag/safe-json-stringify@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@bugsnag/safe-json-stringify@npm:6.0.0"
-  checksum: 74f5d96af5f2f14be038ff939093329cdc6b3cc94eca6ce5ecd9e66a6d30819bcfd22f99c0ff229de56c0ef601cbca292f86ef5c9940ed2692bc9e005ac1f261
-  languageName: node
-  linkType: hard
-
-"@bugsnag/source-maps@npm:^2.3.1":
-  version: 2.3.1
-  resolution: "@bugsnag/source-maps@npm:2.3.1"
-  dependencies:
-    command-line-args: ^5.1.1
-    command-line-usage: ^6.1.0
-    concat-stream: ^2.0.0
-    consola: ^2.15.0
-    form-data: ^3.0.0
-    glob: ^7.1.6
-    read-pkg-up: ^7.0.1
-  bin:
-    bugsnag-source-maps: bin/cli
-  checksum: 59ead61436ccb3c6cc8d5547936875ecaf253698cf67004d0f5d9f62d5775b124a383a1080f50d17e1a6903a478ef33088c4f74122e498a2071d83bbab7981b8
-  languageName: node
-  linkType: hard
-
 "@cnakazawa/watch@npm:^1.0.3":
   version: 1.0.4
   resolution: "@cnakazawa/watch@npm:1.0.4"
@@ -2454,13 +2297,6 @@ __metadata:
   bin:
     excpretty: build/cli.js
   checksum: 075b09567a742eb1a5730f0a191f66e15f0606864d65734bf0b51b8598fb6e5bd1aabaf4e4257b209b8c0ffbb46cb17b66cdca29d678c95c73eb0e5e4aeca538
-  languageName: node
-  linkType: hard
-
-"@freiraum/react-native-share-extension@npm:^1.6.1":
-  version: 1.6.1
-  resolution: "@freiraum/react-native-share-extension@npm:1.6.1"
-  checksum: 576853d44553e8d8a7f437f5a8fc61400d8f8e68dea36bc1fa23891c315ab3049f566cfa4f38249b1495a7e38cdfa4a9cd2812190039fac5122ad9ace686ec76
   languageName: node
   linkType: hard
 
@@ -4086,59 +3922,59 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redux-saga/core@npm:^1.1.3":
-  version: 1.1.3
-  resolution: "@redux-saga/core@npm:1.1.3"
+"@redux-saga/core@npm:^1.2.3":
+  version: 1.2.3
+  resolution: "@redux-saga/core@npm:1.2.3"
   dependencies:
     "@babel/runtime": ^7.6.3
-    "@redux-saga/deferred": ^1.1.2
-    "@redux-saga/delay-p": ^1.1.2
-    "@redux-saga/is": ^1.1.2
-    "@redux-saga/symbols": ^1.1.2
-    "@redux-saga/types": ^1.1.0
+    "@redux-saga/deferred": ^1.2.1
+    "@redux-saga/delay-p": ^1.2.1
+    "@redux-saga/is": ^1.1.3
+    "@redux-saga/symbols": ^1.1.3
+    "@redux-saga/types": ^1.2.1
     redux: ^4.0.4
     typescript-tuple: ^2.2.1
-  checksum: b90c90fcba498442631fe5913be665b6cf4efa58d9e37223fa1d4837b7bd85e1be64e156489f5824b28d91e3fa946192020216d762a5c16e4f75d802517c3cb6
+  checksum: a18249aa4e771699f103c2e18952d5fc0f65124f88c1fe33f4551b658b5ef7fb2d827091fea3e339c91f324e5d9098f758282d92536e1701bd003812353dd004
   languageName: node
   linkType: hard
 
-"@redux-saga/deferred@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "@redux-saga/deferred@npm:1.1.2"
-  checksum: 98bc41ca1cbc716b8b4d5ad3ffb2f04c7fc7298e75736cb197f1d18a084bca8a6e86c0fa547341db200695a45b15110e01d418a9ef32dc5f5ed6274b0e4f234a
+"@redux-saga/deferred@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "@redux-saga/deferred@npm:1.2.1"
+  checksum: 2caca8d2fe559c74889562dbd7fabc6f139cc24871a41122e2ac8e4c98fb1c44a081d0fc762f13c12d6320fd759ee2b799d57141025fef93ae553c09338c3fff
   languageName: node
   linkType: hard
 
-"@redux-saga/delay-p@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "@redux-saga/delay-p@npm:1.1.2"
+"@redux-saga/delay-p@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "@redux-saga/delay-p@npm:1.2.1"
   dependencies:
-    "@redux-saga/symbols": ^1.1.2
-  checksum: 0fda0b8ce947069deb9e35824dedb2393e956174e909e2c17942c6fa519d26f79847fd295832245e80a44c9c352a7154c45ff3389ed998a6ddaee945be68580f
+    "@redux-saga/symbols": ^1.1.3
+  checksum: 060533ce8ba6b919caa5d47961eb5d8c1d171519fccd5d44208c26a0b94f3f315c8ea440f1b23af70ed53ebd0445b64567d6a0ac9663a6f703dd8088746ce2b5
   languageName: node
   linkType: hard
 
-"@redux-saga/is@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "@redux-saga/is@npm:1.1.2"
+"@redux-saga/is@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "@redux-saga/is@npm:1.1.3"
   dependencies:
-    "@redux-saga/symbols": ^1.1.2
-    "@redux-saga/types": ^1.1.0
-  checksum: 18ff4ceb98cd57d00692841a2abb1a13d070561bb8290dd2785b65f792a55641553077231e4986c15b151c115ab5829f7346940c11dc99786dfabcaa293b021b
+    "@redux-saga/symbols": ^1.1.3
+    "@redux-saga/types": ^1.2.1
+  checksum: 8e24194d365e9a8896fa232a92c09a02a8f881f7a3a0d8004311568762ae3865d40391e4719b789114124f71904160a8942bb285e3fd1611599267bf2ae7d5fc
   languageName: node
   linkType: hard
 
-"@redux-saga/symbols@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "@redux-saga/symbols@npm:1.1.2"
-  checksum: b75b6979a94ebc9b4db76eef84e05427e2134ca5cc0711592fab2aca621725c561213a900a75068f83b97ef85038688c36e088a07fedd8c076bf8ecfa9899044
+"@redux-saga/symbols@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "@redux-saga/symbols@npm:1.1.3"
+  checksum: 65a8ea23c1ab7b122823f1a4d957f881d48fa50f90898c26db65cac6524f22e2f337b768dadfa87324925b41e3279ff1ebce1c4141e53dc19e74855167b49b74
   languageName: node
   linkType: hard
 
-"@redux-saga/types@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@redux-saga/types@npm:1.1.0"
-  checksum: e75a6ddc896007e76bd505dee1b3f8401464036ce9db2f4c4ac469215437d61013c17a54b9c342574bac27f2cb6ae628fe24419d17d9f85cb922181d81ec2321
+"@redux-saga/types@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "@redux-saga/types@npm:1.2.1"
+  checksum: 754f183bd1bdd589a29d2b976f666e9ee9e6d28e88268538c11f679d019334999676d5425af14d2a99d5c91c0c87a01e7ac1c4d81a656d93dd529df315bbd0c7
   languageName: node
   linkType: hard
 
@@ -6630,20 +6466,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array-back@npm:^3.0.1, array-back@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "array-back@npm:3.1.0"
-  checksum: 7205004fcd0f9edd926db921af901b083094608d5b265738d0290092f9822f73accb468e677db74c7c94ef432d39e5ed75a7b1786701e182efb25bbba9734209
-  languageName: node
-  linkType: hard
-
-"array-back@npm:^4.0.1":
-  version: 4.0.2
-  resolution: "array-back@npm:4.0.2"
-  checksum: f30603270771eeb54e5aad5f54604c62b3577a18b6db212a7272b2b6c32049121b49431f656654790ed1469411e45f387e7627c0de8fd0515995cc40df9b9294
-  languageName: node
-  linkType: hard
-
 "array-flatten@npm:1.1.1":
   version: 1.1.1
   resolution: "array-flatten@npm:1.1.1"
@@ -8644,30 +8466,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"command-line-args@npm:^5.1.1":
-  version: 5.1.3
-  resolution: "command-line-args@npm:5.1.3"
-  dependencies:
-    array-back: ^3.1.0
-    find-replace: ^3.0.0
-    lodash.camelcase: ^4.3.0
-    typical: ^4.0.0
-  checksum: 24d8199cc7157889c071d3fb14140ebc967d7752bedadf2929b5ee2ae4ad451fdab5524ee89ebf1dd85914eae48c3677e16ca32aeecc85f8621231de4c260fea
-  languageName: node
-  linkType: hard
-
-"command-line-usage@npm:^6.1.0":
-  version: 6.1.1
-  resolution: "command-line-usage@npm:6.1.1"
-  dependencies:
-    array-back: ^4.0.1
-    chalk: ^2.4.2
-    table-layout: ^1.0.1
-    typical: ^5.2.0
-  checksum: f84268a10449323cc838cec3eeaa962b0e63b93142bbeb9202e3e5406ecbbc91fd018d235a49088430f5b757fa1e9c086c3ca141583cfc3950d3fb366b0b2fed
-  languageName: node
-  linkType: hard
-
 "commander@npm:9.2.0":
   version: 9.2.0
   resolution: "commander@npm:9.2.0"
@@ -8846,18 +8644,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"concat-stream@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "concat-stream@npm:2.0.0"
-  dependencies:
-    buffer-from: ^1.0.0
-    inherits: ^2.0.3
-    readable-stream: ^3.0.2
-    typedarray: ^0.0.6
-  checksum: d7f75d48f0ecd356c1545d87e22f57b488172811b1181d96021c7c4b14ab8855f5313280263dca44bb06e5222f274d047da3e290a38841ef87b59719bde967c7
-  languageName: node
-  linkType: hard
-
 "connect@npm:^3.6.5, connect@npm:^3.7.0":
   version: 3.7.0
   resolution: "connect@npm:3.7.0"
@@ -8867,13 +8653,6 @@ __metadata:
     parseurl: ~1.3.3
     utils-merge: 1.0.1
   checksum: 96e1c4effcf219b065c7823e57351c94366d2e2a6952fa95e8212bffb35c86f1d5a3f9f6c5796d4cd3a5fdda628368b1c3cc44bf19c66cfd68fe9f9cab9177e2
-  languageName: node
-  linkType: hard
-
-"consola@npm:^2.15.0":
-  version: 2.15.3
-  resolution: "consola@npm:2.15.3"
-  checksum: 8ef7a09b703ec67ac5c389a372a33b6dc97eda6c9876443a60d76a3076eea0259e7f67a4e54fd5a52f97df73690822d090cf8b7e102b5761348afef7c6d03e28
   languageName: node
   linkType: hard
 
@@ -9457,7 +9236,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deep-extend@npm:^0.6.0, deep-extend@npm:~0.6.0":
+"deep-extend@npm:^0.6.0":
   version: 0.6.0
   resolution: "deep-extend@npm:0.6.0"
   checksum: 7be7e5a8d468d6b10e6a67c3de828f55001b6eb515d014f7aeb9066ce36bd5717161eb47d6a0f7bed8a9083935b465bc163ee2581c8b128d29bf61092fdf57a7
@@ -10248,7 +10027,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"error-stack-parser@npm:^2.0.3, error-stack-parser@npm:^2.0.6":
+"error-stack-parser@npm:^2.0.6":
   version: 2.0.6
   resolution: "error-stack-parser@npm:2.0.6"
   dependencies:
@@ -11511,15 +11290,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"find-replace@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "find-replace@npm:3.0.0"
-  dependencies:
-    array-back: ^3.0.1
-  checksum: 6b04bcfd79027f5b84aa1dfe100e3295da989bdac4b4de6b277f4d063e78f5c9e92ebc8a1fec6dd3b448c924ba404ee051cc759e14a3ee3e825fa1361025df08
-  languageName: node
-  linkType: hard
-
 "find-root@npm:^1.1.0":
   version: 1.1.0
   resolution: "find-root@npm:1.1.0"
@@ -11941,7 +11711,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^1.2.7#~builtin<compat/fsevents>":
   version: 1.2.13
-  resolution: "fsevents@patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=d11327"
+  resolution: "fsevents@patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=18f3a7"
   dependencies:
     bindings: ^1.5.0
     nan: ^2.12.1
@@ -11951,7 +11721,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.1.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.1#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -13826,13 +13596,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"iserror@npm:0.0.2, iserror@npm:^0.0.2":
-  version: 0.0.2
-  resolution: "iserror@npm:0.0.2"
-  checksum: e22080b3a650289303039ad804875bdd8a41af467c5cc8f844529d8bc2b2613f449214aa04cc9c541c219f501e3c6943528dc5ed18ca9fc73e00ee45723f7106
-  languageName: node
-  linkType: hard
-
 "isexe@npm:^2.0.0":
   version: 2.0.0
   resolution: "isexe@npm:2.0.0"
@@ -15323,13 +15086,6 @@ __metadata:
   version: 4.2.0
   resolution: "lodash.assign@npm:4.2.0"
   checksum: 75bbc6733c9f577c448031b4051f990f068802708891f94be9d4c2faffd6a9ec67a2c49671dafc908a068d35687765464853282842b4560b662e6c903d11cc90
-  languageName: node
-  linkType: hard
-
-"lodash.camelcase@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "lodash.camelcase@npm:4.3.0"
-  checksum: cb9227612f71b83e42de93eccf1232feeb25e705bdb19ba26c04f91e885bfd3dd5c517c4a97137658190581d3493ea3973072ca010aab7e301046d90740393d1
   languageName: node
   linkType: hard
 
@@ -19831,7 +19587,7 @@ react-native-ui-lib@RocketChat/react-native-ui-lib:
   languageName: node
   linkType: hard
 
-"readable-stream@npm:^3.0.2, readable-stream@npm:^3.1.1, readable-stream@npm:^3.4.0, readable-stream@npm:^3.6.0":
+"readable-stream@npm:^3.1.1, readable-stream@npm:^3.4.0, readable-stream@npm:^3.6.0":
   version: 3.6.0
   resolution: "readable-stream@npm:3.6.0"
   dependencies:
@@ -19909,13 +19665,6 @@ react-native-ui-lib@RocketChat/react-native-ui-lib:
   languageName: node
   linkType: hard
 
-"reduce-flatten@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "reduce-flatten@npm:2.0.0"
-  checksum: 64393ef99a16b20692acfd60982d7fdbd7ff8d9f8f185c6023466444c6dd2abb929d67717a83cec7f7f8fb5f46a25d515b3b2bf2238fdbfcdbfd01d2a9e73cb8
-  languageName: node
-  linkType: hard
-
 "redux-immutable-state-invariant@npm:2.1.0":
   version: 2.1.0
   resolution: "redux-immutable-state-invariant@npm:2.1.0"
@@ -19926,12 +19675,12 @@ react-native-ui-lib@RocketChat/react-native-ui-lib:
   languageName: node
   linkType: hard
 
-"redux-saga@npm:1.1.3":
-  version: 1.1.3
-  resolution: "redux-saga@npm:1.1.3"
+"redux-saga@npm:1.2.3":
+  version: 1.2.3
+  resolution: "redux-saga@npm:1.2.3"
   dependencies:
-    "@redux-saga/core": ^1.1.3
-  checksum: 4ea0bf0d4fac4a9101f2fd0798f7c93ed6646781e40dc9082ff1d4d3a9ae24ef2cadf1e3f62d27e5dcf100e2c8febf833bafd1d7033167afcb198013d0136b4a
+    "@redux-saga/core": ^1.2.3
+  checksum: 5c70799272cfbc94e046992d04bbe967e9f86ca3a35aa0c1562e6727e85b96b1a5aae68e180fdbbbc58de453dc22b39d99c81d7c604fbda7c45a8b60a729ef9d
   languageName: node
   linkType: hard
 
@@ -20282,7 +20031,7 @@ react-native-ui-lib@RocketChat/react-native-ui-lib:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.13.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.18.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.3.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.8.1#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -20295,7 +20044,7 @@ react-native-ui-lib@RocketChat/react-native-ui-lib:
 
 "resolve@patch:resolve@^2.0.0-next.3#~builtin<compat/resolve>":
   version: 2.0.0-next.3
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.3#~builtin<compat/resolve>::version=2.0.0-next.3&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.3#~builtin<compat/resolve>::version=2.0.0-next.3&hash=07638b"
   dependencies:
     is-core-module: ^2.2.0
     path-parse: ^1.0.6
@@ -20305,7 +20054,7 @@ react-native-ui-lib@RocketChat/react-native-ui-lib:
 
 "resolve@patch:resolve@~1.7.1#~builtin<compat/resolve>":
   version: 1.7.1
-  resolution: "resolve@patch:resolve@npm%3A1.7.1#~builtin<compat/resolve>::version=1.7.1&hash=3bafbf"
+  resolution: "resolve@patch:resolve@npm%3A1.7.1#~builtin<compat/resolve>::version=1.7.1&hash=07638b"
   dependencies:
     path-parse: ^1.0.5
   checksum: c2a6f0e3856ac1ddc8297091c20ca6c36d99bf289ddea366c46bd2a7ed8b31075c7f9d01ff5d390ebed1fe41b9fabe57a79ae087992ba92e3592f0c3be07c1ac
@@ -20460,10 +20209,7 @@ rn-root-view@RocketChat/rn-root-view:
     "@babel/plugin-proposal-decorators": ^7.8.3
     "@babel/plugin-transform-named-capturing-groups-regex": ^7.17.12
     "@babel/runtime": ^7.12.5
-    "@bugsnag/react-native": ^7.19.0
-    "@bugsnag/source-maps": ^2.3.1
     "@codler/react-native-keyboard-aware-scroll-view": ^2.0.1
-    "@freiraum/react-native-share-extension": ^1.6.1
     "@gorhom/bottom-sheet": ^4.3.1
     "@hookform/resolvers": ^2.9.10
     "@nozbe/watermelondb": 0.23.0
@@ -20617,7 +20363,7 @@ rn-root-view@RocketChat/rn-root-view:
     reactotron-redux-saga: 4.2.3
     redux: 4.2.0
     redux-immutable-state-invariant: 2.1.0
-    redux-saga: 1.1.3
+    redux-saga: 1.2.3
     remove-markdown: ^0.3.0
     reselect: 4.0.0
     rn-extensions-share: RocketChat/rn-extensions-share
@@ -21459,7 +21205,7 @@ rn-root-view@RocketChat/rn-root-view:
   languageName: node
   linkType: hard
 
-"stack-generator@npm:^2.0.3, stack-generator@npm:^2.0.5":
+"stack-generator@npm:^2.0.5":
   version: 2.0.5
   resolution: "stack-generator@npm:2.0.5"
   dependencies:
@@ -22027,18 +21773,6 @@ rn-root-view@RocketChat/rn-root-view:
     es-abstract: ^1.17.0-next.1
     has-symbols: ^1.0.1
   checksum: 7ad14bb407d072ab25fd50bf140113036735eddfb8f7b709a95f8bef5d4db5c44c71b4a2d38c5e45cad0c2f40d46d1c738d27fb57daf14bed40360576481ab9c
-  languageName: node
-  linkType: hard
-
-"table-layout@npm:^1.0.1":
-  version: 1.0.2
-  resolution: "table-layout@npm:1.0.2"
-  dependencies:
-    array-back: ^4.0.1
-    deep-extend: ~0.6.0
-    typical: ^5.2.0
-    wordwrapjs: ^4.0.0
-  checksum: 8f41b5671f101a5195747ec1727b1d35ea2cd5bf85addda11cc2f4b36892db9696ce3c2c7334b5b8a122505b34d19135fede50e25678df71b0439e0704fd953f
   languageName: node
   linkType: hard
 
@@ -22805,7 +22539,7 @@ rn-root-view@RocketChat/rn-root-view:
 
 "typescript@patch:typescript@^4.3.5#~builtin<compat/typescript>":
   version: 4.4.2
-  resolution: "typescript@patch:typescript@npm%3A4.4.2#~builtin<compat/typescript>::version=4.4.2&hash=bbeadb"
+  resolution: "typescript@patch:typescript@npm%3A4.4.2#~builtin<compat/typescript>::version=4.4.2&hash=a1c5e5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
@@ -22817,20 +22551,6 @@ rn-root-view@RocketChat/rn-root-view:
   version: 2.6.1
   resolution: "typical@npm:2.6.1"
   checksum: 6af04fefe50d90d3471f058b2cdc0f49b7436bdd605cd00acea7965926ff388a5a7d692ef144f45fccee6f8e896c065702ecc44b69057e2ce88c09e897c7d3a4
-  languageName: node
-  linkType: hard
-
-"typical@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "typical@npm:4.0.0"
-  checksum: a242081956825328f535e6195a924240b34daf6e7fdb573a1809a42b9f37fb8114fa99c7ab89a695e0cdb419d4149d067f6723e4b95855ffd39c6c4ca378efb3
-  languageName: node
-  linkType: hard
-
-"typical@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "typical@npm:5.2.0"
-  checksum: ccaeb151a9a556291b495571ca44c4660f736fb49c29314bbf773c90fad92e9485d3cc2b074c933866c1595abbbc962f2b8bfc6e0f52a8c6b0cdd205442036ac
   languageName: node
   linkType: hard
 
@@ -23839,16 +23559,6 @@ rn-root-view@RocketChat/rn-root-view:
   version: 1.2.3
   resolution: "word-wrap@npm:1.2.3"
   checksum: 30b48f91fcf12106ed3186ae4fa86a6a1842416df425be7b60485de14bec665a54a68e4b5156647dec3a70f25e84d270ca8bc8cd23182ed095f5c7206a938c1f
-  languageName: node
-  linkType: hard
-
-"wordwrapjs@npm:^4.0.0":
-  version: 4.0.1
-  resolution: "wordwrapjs@npm:4.0.1"
-  dependencies:
-    reduce-flatten: ^2.0.0
-    typical: ^5.2.0
-  checksum: 3d927f3c95d0ad990968da54c0ad8cde2801d8e91006cd7474c26e6b742cc8557250ce495c9732b2f9db1f903601cb74ec282e0f122ee0d02d7abe81e150eea8
   languageName: node
   linkType: hard
 
